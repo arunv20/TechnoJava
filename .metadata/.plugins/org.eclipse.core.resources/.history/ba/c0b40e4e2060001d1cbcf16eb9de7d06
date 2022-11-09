@@ -1,0 +1,21 @@
+package com.te.exceptionhandling;
+
+public class RunAccount {
+
+	public static void main(String[] args) {
+		BankAccount account = new BankAccount(10000.0);
+		
+		try {
+			account.withdraw(200000.0);
+			
+		} catch (InsufficientBalException e) {
+			System.out.println(e.getMessage());
+			e.printStackTrace();
+		}
+		
+		
+		
+		
+	}
+
+}

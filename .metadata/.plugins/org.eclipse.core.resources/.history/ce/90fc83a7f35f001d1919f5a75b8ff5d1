@@ -1,0 +1,24 @@
+package com.te.restaurant.module1;
+
+public class RestaurantItems {
+	
+		static String [] fooditems= new String[] {"briyani","Phulka","roti","b.Masala"};
+		 static int[] rate = new int [] {120,50,20,50};	
+		int [] qt = new int [0];
+	public static void displayItems(){
+			System.out.println(" "+"items"+"\t\t\tprice");
+			
+			for(int i=0;i<4;i++) {
+				System.out.println((i+1)+fooditems[i]+"\t\t\t"+ rate[i]);
+			}
+	}
+	public static void main(String[] args) {
+		RestaurantItems.displayItems();
+		
+		
+	}
+		
+	
+	
+
+}

@@ -1,0 +1,11 @@
+package com.te.restaurant.module1;
+
+public class RestaurantItems {
+	
+		String [] fooditems= new String[] {"briyani","Phulka","roti","butterMasala"};
+		int[] rate = new int [] {120,50,20,50};	
+		
+	
+	
+
+}

@@ -1,0 +1,24 @@
+package com.te.exceptionhandling;
+
+public class BankAccount {
+	
+	double amount;
+	
+	public void withdraw(double amount) {
+		if (amount<1000) {
+			System.out.println("withdrawal successful");
+		}
+		else {
+			System.out.println("withdrawn unsuccessful");
+		}
+		
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		BankAccount account= new BankAccount();
+		account.withdraw(25000.0);
+
+	}
+
+}

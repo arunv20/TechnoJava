@@ -1,0 +1,40 @@
+package com.te.restaurant.module1;
+
+import java.util.Scanner;
+
+public class RestaurantItems {
+	
+		static String [] fooditems= new String[] {"briyani","Phulka","roti","b.Masala","quit"};
+		 static int[] rate = new int [] {120,50,20,50,0};	
+		int [] quan = new int [5];
+	public static void displayItems(){
+			System.out.println(" "+"items"+"\t\t\tprice");
+			
+			for(int i=0;i<4;i++) {
+				System.out.println((i+1)+fooditems[i]+"\t\t\t"+ rate[i]);
+			}
+	}
+	static Scanner scanner = new Scanner(System.in);
+	public static void order() {
+		System.out.println("enter your order");
+		int choice = scanner.nextInt();
+		if(choice>0 && ch<10)
+	    {
+		System.out.println("enter the no of quantites of "+s[ch-1]);
+                 int q=input.nextInt();
+	         qt[ch-1]+=q;
+		
+	    }
+		
+		
+	}
+	public static void main(String[] args) {
+		RestaurantItems.displayItems();
+	
+		
+	}
+		
+	
+	
+
+}

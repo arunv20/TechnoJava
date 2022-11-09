@@ -1,0 +1,10 @@
+package com.te.exceptionhandling;
+
+public class InsufficientBalException extends RuntimeException {
+	String message;
+	public InsufficientBalException(String message ) {
+		this.message=message;
+	}
+	
+
+}

@@ -1,0 +1,11 @@
+package com.te.restaurant.module1;
+
+public class RestaurantItems {
+	String [] fooditems= new String	[4];
+	fooditems[0]="Briyani";
+	fooditems[1]="Roti";
+	fooditems[2]="Phulka";
+	fooditems[3]="chutney";
+	
+
+}
